@@ -5,6 +5,29 @@ int main()
         string s;
         cin>>s;
         for(i=0; i<s.size(); i++){
-          code
+          if(s[i]='0'){code}
+          //bisa bervariasi
         }
+}
+
+
+// OR
+
+
+#include <string.h>
+#include <iostream>
+using namespace std;
+ 
+int main()
+{
+    // Take any string
+    string s1 = "Geeks";
+ 
+    // Copy 2 characters of s1 (starting from position 3(index mulai dari 0))
+    string r = s1.substr(3, 2);
+ 
+    // prints the result
+    cout << "String is: " << r;
+    // bakal keluar ks 
+    return 0;
 }
