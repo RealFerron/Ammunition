@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    string first_name = "John";
+    
+    int age = 80;
+    
+    string AGE_TO_STRING = to_string(age);
+    
+    cout << first_name + " is " + AGE_TO_STRING + " years old";
+    
+}
